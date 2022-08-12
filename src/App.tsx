@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import UseStateExample from "./components/hooks/UseStateExample";
+// import UseReducerExample from "./components/hooks/UseReducerExample";
+// import UseEffectExample from "./components/hooks/UseEffectExample";
+// import UseContextExample from "./components/hooks/UseContextExample";
+// import UseRefExample from "./components/hooks/UseRefExample";
+import UseMemoExample from "./components/hooks/UseMemoExample";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <UseStateExample /> */}
+      {/* <UseReducerExample /> */}
+      {/* <UseEffectExample /> */}
+      {/* <UseContextExample /> */}
+      {/* <UseRefExample /> */}
+      <UseMemoExample />
     </div>
   );
 }
